@@ -117,7 +117,6 @@ void Frame(){
         x_y_coordinates(35,a);
         printf("|");
     }
-
 }
 
 void Reset_Window(){
@@ -137,13 +136,11 @@ void window(){
     printf("RECORD SYSTEM");
 }
 
-
 void print_heading(const char st[]){
-    Setting_Color_And_Background(31,28);
+    Setting_Color_And_Background(35,15);
     x_y_coordinates(38,8);printf("RECORD SYSTEM : %s",st);
     Setting_Color_And_Background(17,15);
 }
-
 
 void adding_dat(){
     Reset_Window();
@@ -237,7 +234,6 @@ void modify_dat(){
     return;
 }
 
-
 void delete_dat(){
     Reset_Window();
     print_heading("Delete Record");
@@ -285,9 +281,7 @@ void main_window(){
             default:
                 break;
         }
-
     }
-
 }
 
 int main(){
