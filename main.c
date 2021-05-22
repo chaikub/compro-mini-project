@@ -164,7 +164,7 @@ void adding_IT(){
         x_and_y_coordinates(print,20);printf("Contact Number: ");gets(it.contact_number);
         fwrite(&it, sizeof(it), 1, openfile);
 //       fwrite("\n", sizeof("\n"), 1, openfile);
-        x_and_y_coordinates(40,22); printf("New IT is Added Successfully");
+        x_and_y_coordinates(40,22); printf("New record is Added Successfully");
     }
     SetColor(35);
     fclose(openfile);
@@ -224,7 +224,7 @@ void modify_IT(){
             x_and_y_coordinates(print,17);printf("Contact Number: ");gets(it.contact_number);
             fseek(openfile,-sizeof(it), SEEK_CUR);
             fwrite(&it,sizeof(it), 1, openfile);
-            x_and_y_coordinates(40,22); printf("New IT is Updated Successfully");
+            x_and_y_coordinates(40,22); printf("Record is Updated Successfully");
             isFound = 1;
             break;
         }
