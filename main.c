@@ -291,7 +291,7 @@ void main_window(){
 }
 
 int main(){
-    ClearConsoleToColors(17,0);
+    ClearConsoleToColors(17,15);
     SetConsoleTitle("RECORD SYSTEM");
     window();
     main_window();
