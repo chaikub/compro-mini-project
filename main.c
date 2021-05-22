@@ -9,8 +9,8 @@ struct data{
     char name[30];
     char faculty[20];
     char department[20];
-    char email[20];
-    char contact_number[20];
+    char email[25];
+    char contact_number[11];
 };
 
 struct data dat;
