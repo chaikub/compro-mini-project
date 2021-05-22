@@ -257,8 +257,8 @@ void main_window(){
     while(1){
         x_y_coordinates(x,8);printf("1. Add");
         x_y_coordinates(x,10);printf("2. Search");
-        x_y_coordinates(x,12);printf("3. Modify Record");
-        x_y_coordinates(x,14);printf("4. Delete Record");
+        x_y_coordinates(x,12);printf("3. Modify");
+        x_y_coordinates(x,14);printf("4. Delete");
         x_y_coordinates(x,16);printf("5. Exit");
         x_y_coordinates(x,18);printf("Enter your Choice: ");
         scanf("%d",&option);
